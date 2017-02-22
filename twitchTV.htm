@@ -1,0 +1,51 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project #6 JSON Twitch TV appr</title>
+        <meta name="description" content="Show Local Weather Project">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+        <link rel="stylesheet" href="twitchTV.css">  
+        
+<!-- 
+
+-->    
+    </head>
+    <body>
+        <div class="container">
+			<div class ="row firstRow">
+			<div class="btn-group-vertical pull-right" role="group" id="alignIt1"> 
+                    <button class=" btn btn-default" id="showOnLineChannels">Show OnLine Users</button>  <!--On Line Use Button  -->
+                    <button class="btn btn-default" id="showOffLineChannels">Show OffLine User</button> <!--OffLine Use Buttons  -->
+				<button class="btn btn-default"  id="showAllChannels">Show All Users</button> <!-- All Users Buttons --> 
+                </div>  <!--  -->
+			</div>
+			
+            <div id="header" class="text-center">
+                <h1>Use the TwitchTV JSON API</h1>
+                <h2>Free Code Camp</h2>
+            </div>
+            <div class="row" id="title">
+                <h1>
+                <div class="col-md-3" id="logoAlign"> 
+            Logo:
+                </div>
+                <div class="col-md-3">
+            Display Name:
+                </div>
+                <div class="col-md-6">
+            Status:
+                </div>
+                </h1>
+            </div>   <!-- end of row -->
+            <div class="followerInfo">  <!-- User, channel and gamer data gets printed here -->
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <script src="twitchTV.js"></script>
+    </body>
+</html>

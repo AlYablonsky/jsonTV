@@ -1,0 +1,122 @@
+
+/* Styles the online user field */
+.row.onLineFollowers {
+	background-color: darkred;
+	color: white;
+}
+/* Styles the offline user field */
+.row.offLineFollowers {
+	background-color: blue;
+	color: white;
+}
+
+/*  Styles the logo */
+#logo {
+	
+	border-radius: 50%;
+	
+}
+
+/* Styles the row common to both online and offline users  */
+.row:not(.firstRow) {
+        border: 1px solid black;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		font-size: 2em;
+      }
+.row a {
+	
+	color: lightblue;
+}
+
+/*Style the buttons */
+.btn {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: 700;
+}
+
+
+/* Set the container width */
+.container {
+        width: 1500px;
+      }
+
+/* Use the parent div of the image for alignment */
+#imageAlign {
+	
+	text-align: center;
+}
+/* Aligning the title text above the logo  */
+#logoAlign {
+	
+	text-align: center;
+}
+
+/* Styling the text for the title bar above the channel information */
+#title {
+	
+	background-color: darkcyan;
+	color: white;
+	
+}
+
+#header {
+	
+	background-color: lightgreen;
+	color: black;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0;
+	font-family: 'Lobster', sans-serif;
+	font-weight: 800;
+	border: 1px solid black;
+	margin-top: 5px;
+}
+
+/* Alligning and styling the buttons */
+#alignIt1 {
+	margin-top: 10px;
+	border: none !important;
+}
+
+/* Individual styling for showOnLineChannels button */
+#showOnLineChannels {
+	
+	background-color: red;
+	color: white;
+	transition: background-color 3s, color 3s;
+}
+/* Individual styling for showOnLineChannels button in hover mode*/
+#showOnLineChannels:hover {
+	background-color: lightcyan;
+	color: black;	
+}
+/* Individual styling for showOffLineChannels button */
+#showOffLineChannels {
+	
+	background-color: blue;
+	color: white;
+	transition: background-color 3s, color 3s;
+}
+/* Individual styling for showOffLineChannels button in hover mode*/
+#showOffLineChannels:hover {
+	
+	background-color: green;
+	color: white;
+}
+/* Individual styling for showAllChannels button */
+#showAllChannels  {
+	
+	background-color: yellow;
+	color: black;
+	transition: background-color 3s, color 3s;
+}
+/* Individual styling for showAllChannels button in hover mode*/
+#showAllChannels:hover {
+	
+	background-color: hotpink;
+	color: white;
+	
+}
+
