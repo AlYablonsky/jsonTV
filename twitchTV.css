@@ -1,16 +1,16 @@
 
-/* Styles the online user field */
+
 .row.onLineFollowers {
 	background-color: darkred;
 	color: white;
 }
-/* Styles the offline user field */
+
 .row.offLineFollowers {
 	background-color: blue;
 	color: white;
 }
 
-/*  Styles the logo */
+
 #logo {
 	
 	border-radius: 50%;
@@ -20,8 +20,7 @@
 /* Styles the row common to both online and offline users  */
 .row:not(.firstRow) {
         border: 1px solid black;
-		margin-bottom: 5px;
-		margin-top: 5px;
+		margin:  5px 0 5px 0;
 		font-size: 2em;
       }
 .row a {
@@ -65,9 +64,6 @@
 	
 	background-color: lightgreen;
 	color: black;
-	margin-left: -15px;
-	margin-right: -15px;
-	margin-bottom: 0;
 	font-family: 'Lobster', sans-serif;
 	font-weight: 800;
 	border: 1px solid black;
@@ -78,6 +74,7 @@
 #alignIt1 {
 	margin-top: 10px;
 	border: none !important;
+	padding-right: 15px;
 }
 
 /* Individual styling for showOnLineChannels button */
